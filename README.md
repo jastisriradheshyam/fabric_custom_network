@@ -8,7 +8,7 @@ The directions for using this are documented in the Hyperledger Fabric
 
 =======
 # fabric_custom_network
-Hyperledger Fabric Custom Network with 3 Organizations and  Peers for each Organization
+Hyperledger Fabric Custom Network with 2 Organizations and 3 Peers for each Organization
 
 ## Prerequisites
 Docker
