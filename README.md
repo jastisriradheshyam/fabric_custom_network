@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Build Your First Network (BYFN)
 
 The directions for using this are documented in the Hyperledger Fabric
@@ -9,4 +9,4 @@ The directions for using this are documented in the Hyperledger Fabric
 =======
 # fabric_custom_network
 Hyperledger Fabric Custom Network with 3 Organizations and  Peers for each Organization
->>>>>>> 592c3cc066bcecf9b806520e26506bc23a4f6899
+
