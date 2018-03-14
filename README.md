@@ -10,3 +10,22 @@ The directions for using this are documented in the Hyperledger Fabric
 # fabric_custom_network
 Hyperledger Fabric Custom Network with 3 Organizations and  Peers for each Organization
 
+## Prerequisites
+Docker
+Docker-compose
+Go programming language 1.7.x  
+Node.js - version 6.9.x or greater (Not 7 (inclusive) or above)  
+npm@3.10.10  
+Fabric 1.0.6  
+More info: http://hyperledger-fabric.readthedocs.io/en/release-1.0/prereqs.html  
+
+## Working (Execution instructions)
+./byfn -m generate  
+./byfn -m up  
+./byfn -m down  
+  
+For larger time up (When cli to be up for more time. Usually it is up for 60 sec. by default)  
+./byfn -m generate  
+./byfn -m up -t 10000  
+./byfn -m down -t 10000  
+More info: http://hyperledger-fabric.readthedocs.io/en/release-1.0/build_network.html
