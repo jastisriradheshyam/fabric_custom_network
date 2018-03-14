@@ -29,3 +29,14 @@ For larger time up (When cli to be up for more time. Usually it is up for 60 sec
 ./byfn -m up -t 10000  
 ./byfn -m down -t 10000  
 More info: http://hyperledger-fabric.readthedocs.io/en/release-1.0/build_network.html
+
+## Files Modified
+__*These are the files modified to get 3 peers in each organization*__
+* docker-compose-e2e-template.yaml
+* docker-compose-cli.yaml
+    * Used to pass into the docker compose command.
+* crypto-config.yaml
+  * Used for creating CA certificates for org and peers.
+* scripts/script.sh
+  * Used to run commands in cli
+* base/docker-compose-base.yaml
